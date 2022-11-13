@@ -2,8 +2,47 @@
   position: relative;
   width: 1440px;
   height: 2890px;
-
-  /* white */
-
   background: #FFF;
+}
+
+.navi {
+  /* padding-left: 1%;
+  padding-right: 1%; */
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.connectbtn {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
+  width: 170px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  color: #FFF;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.link:hover {
+  background-color: #A02279;
+  cursor: pointer;
+}
+
+.logos {
+  cursor: pointer;
+}
+
+.wholewidth {
+  background-color: #A02279;
+  margin-top: 3rem;
+  width: 100vw;
 }
