@@ -1,18 +1,17 @@
 .home {
-  position: relative;
-  width: 1440px;
-  height: 2890px;
+  overflow-x: hidden;
   background: #FFF;
+  max-width: 100vw;
+  /* max-height: 100vh; */
 }
 
-.navi {
-  /* padding-left: 1%;
-  padding-right: 1%; */
+/* .navi {
   height: 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+  max-width: 100%;
+} */
 
 .connectbtn {
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
@@ -37,12 +36,65 @@
   cursor: pointer;
 }
 
-.logos {
+.point {
   cursor: pointer;
 }
 
-.wholewidth {
-  background-color: #A02279;
-  margin-top: 3rem;
+/* .wholewidth {
+  background-color: hsl(319, 65%, 38%);
   width: 100vw;
+} */
+
+.bimgs {
+  width: 1440px;
+  height: 742px;
+  left: 0px;
+  top: 0px;
+
+  /* White lin */
+
+  background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+}
+
+.b1 {
+  padding-top: 2rem;
+}
+
+.searchSection {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.b2 {
+  justify-content: center;
+  text-align: center;
+}
+
+.resize {
+  height: 240px;
+  width: 240px;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  font-size: xx-small;
+  font-weight: 400;
+}
+
+.star {
+  height: 1em;
+  width: 1em;
+}
+
+.wall {
+  width: 450px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
