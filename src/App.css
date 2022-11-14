@@ -98,3 +98,12 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.bold {
+  font-weight: 600;
+}
+
+.blackground {
+  background-color: #1D1D1E;
+  ;
+}

@@ -47,10 +47,10 @@ function Navigatingbar() {
         <Modal.Body className='wall'>
           <p>Choose your preferred wallet:</p>
           <a href="https://flutterwave.com/us/">
-            <img src="wall1.png" alt="" className='wall pb-2' />
+            <img src="wall1.png" alt="" className='wall pb-2 img-fluid' />
           </a>
           <a href="https://paystack.com/">
-            <img src="wall2.png" alt="" className='wall' />
+            <img src="wall2.png" alt="" className='wall img-fluid' />
           </a>
         </Modal.Body>
       </Modal>
